@@ -1,0 +1,33 @@
+Planification du projet : Menz & Biz Manager
+
+Semaine 1 : Recherche et préparation (5 jours)
+
+Jour 1 : Définir les objectifs et les besoins
+
+Aujourd'hui, j'ai analysé les besoins fonctionnels du projet en identifiant les fonctionnalités essentielles comme la facturation, la gestion des fiches de paie, et le suivi financier. 
+J'ai également commencé à rédiger des user stories pour bien comprendre les attentes des utilisateurs. Cela m'a permis de structurer les bases du projet.
+
+Jour 2 : Rechercher les outils et technologies
+
+J'ai comparé plusieurs technologies pour le backend (Node.js et Django) et le frontend (React.js et Vue.js). 
+J'ai aussi exploré les options pour les bases de données comme PostgreSQL et Firebase Firestore. Enfin, 
+j'ai noté les avantages des plateformes d'hébergement telles que Render, Vercel, et Railway. Ces recherches m'ont donné une idée plus claire des outils adaptés à mon projet.
+
+Jour 3 : Choisir les outils et plateformes
+
+Après avoir évalué les technologies, j'ai décidé d'utiliser Node.js pour le backend, React.js pour le frontend, et PostgreSQL pour la base de données.
+J'ai également sélectionné Render pour héberger le backend et Vercel pour le frontend. 
+Ces choix me semblent adaptés pour garantir la performance et la simplicité du projet.
+
+Jour 4 : Préparer l’environnement de travail
+
+Aujourd'hui, j'ai configuré mon environnement de travail sur Replit. J'ai installé Node.js et configuré un dépôt GitHub pour le versionnement. 
+J'ai également installé les dépendances initiales comme Express.js. 
+Tout est prêt pour commencer le développement actif dès la semaine prochaine.
+
+Jour 5 : Planifier le développement
+
+J'ai finalisé la planification des tâches hebdomadaires.
+Chaque fonctionnalité principale a été divisée en sous-tâches avec des critères de réussite clairs. 
+Par exemple, le module de facturation doit permettre de créer, envoyer et suivre les factures. 
+Cette planification détaillée me servira de guide pour les prochaines semaines.
