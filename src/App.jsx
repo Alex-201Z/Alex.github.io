@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import '../index.css'; // Debugging: Force CSS import
 import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
