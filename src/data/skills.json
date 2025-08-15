@@ -1,0 +1,25 @@
+[
+  {
+    "tier": 1,
+    "skills": [
+      { "id": "html", "name": "HTML5" },
+      { "id": "css", "name": "CSS3" },
+      { "id": "js", "name": "JavaScript ES6+" }
+    ]
+  },
+  {
+    "tier": 2,
+    "skills": [
+      { "id": "git", "name": "Git & GitHub" },
+      { "id": "react", "name": "React" },
+      { "id": "node", "name": "Node.js" }
+    ]
+  },
+  {
+    "tier": 3,
+    "skills": [
+      { "id": "ts", "name": "TypeScript" },
+      { "id": "docker", "name": "Docker" }
+    ]
+  }
+]

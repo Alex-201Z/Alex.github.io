@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Projet GSB Frais",
+    "description": "Application web pour la gestion des fiches de frais de visiteurs, construite avec le framework Laravel (PHP) et JavaScript.",
+    "technologies": ["PHP", "Laravel", "JavaScript"],
+    "link": "https://github.com/Alex-201Z/ProjetGsbFrais"
+  },
+  {
+    "id": 2,
+    "title": "Projet Manga",
+    "description": "Plateforme de gestion et de consultation d'une collection de mangas, développée avec Laravel et le moteur de template Blade.",
+    "technologies": ["PHP", "Laravel", "Blade"],
+    "link": "https://github.com/Alex-201Z/ProjetManga"
+  },
+  {
+    "id": 3,
+    "title": "Gestion GSB",
+    "description": "Solution complète pour la gestion des ressources GSB, développée en TypeScript pour une meilleure robustesse du code.",
+    "technologies": ["TypeScript", "Node.js"],
+    "link": "https://github.com/Alex-201Z/gestionGSB"
+  }
+]

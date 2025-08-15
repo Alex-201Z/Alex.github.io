@@ -173,23 +173,6 @@ footer {
     box-shadow: 0 0 25px var(--accent-color);
 }
 
-/* --- Easter Egg --- */
-body.matrix-mode {
-    --background-color: #000000;
-    --primary-text-color: #00ff00;
-    --heading-color: #00ff00;
-    --accent-color: #00ff00;
-    font-family: 'Courier New', Courier, monospace !important;
-}
-
-body.matrix-mode *, body.matrix-mode h1, body.matrix-mode h2, body.matrix-mode h3, body.matrix-mode nav a, body.matrix-mode .skill-node {
-    font-family: 'Courier New', Courier, monospace !important;
-}
-
-body.matrix-mode a:hover {
-    text-shadow: 0 0 8px #00ff00;
-}
-
 /* Project Section */
 .project-gallery {
     display: grid;
@@ -218,7 +201,7 @@ body.matrix-mode a:hover {
 }
 
 .project-card p {
-    flex-grow: 1; /* Makes description take up available space */
+    flex-grow: 1;
     margin-bottom: 1.5rem;
 }
 
@@ -238,6 +221,22 @@ body.matrix-mode a:hover {
     text-shadow: none;
 }
 
+.project-technologies {
+    margin-bottom: 1rem;
+    flex-grow: 1;
+}
+
+.tech-tag {
+    display: inline-block;
+    background-color: rgba(0, 255, 255, 0.1);
+    color: var(--accent-color);
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
 /* Contact Section */
 .contact-links {
     text-align: center;
@@ -248,4 +247,51 @@ body.matrix-mode a:hover {
     margin: 0 1rem;
     font-size: 1.2rem;
     font-family: 'Poppins', sans-serif;
+}
+
+/* --- Easter Egg --- */
+body.matrix-mode {
+    --background-color: #000000;
+    --primary-text-color: #00ff00;
+    --heading-color: #00ff00;
+    --accent-color: #00ff00;
+    font-family: 'Courier New', Courier, monospace !important;
+}
+
+body.matrix-mode *, body.matrix-mode h1, body.matrix-mode h2, body.matrix-mode h3, body.matrix-mode nav a, body.matrix-mode .skill-node {
+    font-family: 'Courier New', Courier, monospace !important;
+}
+
+body.matrix-mode a:hover {
+    text-shadow: 0 0 8px #00ff00;
+}
+
+/* Filter Bar */
+.filter-bar {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.filter-bar button {
+    background-color: transparent;
+    border: 1px solid var(--accent-color);
+    color: var(--accent-color);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.filter-bar button:hover {
+    background-color: rgba(0, 255, 255, 0.1);
+}
+
+.filter-bar button.active {
+    background-color: var(--accent-color);
+    color: var(--background-color);
 }
